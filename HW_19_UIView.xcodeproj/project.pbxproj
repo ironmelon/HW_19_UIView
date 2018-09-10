@@ -12,6 +12,7 @@
 		E3FFC6E721430BE700CD5883 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FFC6E521430BE700CD5883 /* Main.storyboard */; };
 		E3FFC6E921430C2500CD5883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3FFC6E821430C2500CD5883 /* Assets.xcassets */; };
 		E3FFC6EC21430C2500CD5883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FFC6EA21430C2500CD5883 /* LaunchScreen.storyboard */; };
+		E3FFC6F62146F93000CD5883 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FFC6F52146F93000CD5883 /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E3FFC6E821430C2500CD5883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3FFC6EB21430C2500CD5883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3FFC6ED21430C2500CD5883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3FFC6F52146F93000CD5883 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E3FFC6E121430BE700CD5883 /* AppDelegate.swift */,
 				E3FFC6E321430BE700CD5883 /* ViewController.swift */,
+				E3FFC6F52146F93000CD5883 /* CustomView.swift */,
 				E3FFC6E521430BE700CD5883 /* Main.storyboard */,
 				E3FFC6E821430C2500CD5883 /* Assets.xcassets */,
 				E3FFC6EA21430C2500CD5883 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3FFC6F62146F93000CD5883 /* CustomView.swift in Sources */,
 				E3FFC6E421430BE700CD5883 /* ViewController.swift in Sources */,
 				E3FFC6E221430BE700CD5883 /* AppDelegate.swift in Sources */,
 			);
